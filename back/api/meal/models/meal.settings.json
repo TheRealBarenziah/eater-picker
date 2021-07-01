@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "meals",
   "info": {
-    "name": "meal"
+    "name": "meal",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -19,6 +20,9 @@
     },
     "max_price": {
       "type": "float"
+    },
+    "restaurant": {
+      "model": "restaurants"
     }
   }
 }
