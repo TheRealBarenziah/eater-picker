@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meals",
+  "info": {
+    "name": "meal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "min_price": {
+      "type": "float"
+    },
+    "max_price": {
+      "type": "float"
+    }
+  }
+}
